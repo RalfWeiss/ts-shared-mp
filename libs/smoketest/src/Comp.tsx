@@ -2,6 +2,7 @@ import React from 'react'
 
 export const Comp = props => (
   <div>
-    React Component
+    <p>React Component</p>
+    <p>from lib smoketest</p>
   </div>
 )

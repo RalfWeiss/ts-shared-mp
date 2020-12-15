@@ -11,6 +11,9 @@
     "libs/*"
   ],
   "scripts": {
+    "prestart": "lerna run build",
+    "start": "SKIP_PREFLIGHT_CHECK=true  lerna run start",
+    "start:cra": "yarn workspace @apidemo/cra run start",
     "compile": "lerna run compile",
     "test": "lerna run test"
   },
