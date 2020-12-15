@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "git@github.com:RalfWeiss/ts-shared-mp.git",
   "author": "<ralf.weiss@email.de>",
-  "homepage": "https://ralfweiss.github.io/ts-shared-mp",
+  "homepage": "https://ralfweiss.github.io/ts-shared-mp/.",
   "license": "MIT",
   "private": true,
   "workspaces": [
@@ -13,11 +13,12 @@
   ],
   "scripts": {
     "prestart": "lerna run build",
-    "start": "SKIP_PREFLIGHT_CHECK=true  lerna run start",
     "start:cra": "yarn workspace @apidemo/cra run start",
     "build": "lerna run build",
     "compile": "lerna run compile",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "predeploy": "rimraf ./docs && yarn run build",
+    "deploy": "cp -r ./apps/cra/build ./docs"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
