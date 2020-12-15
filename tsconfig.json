@@ -3,7 +3,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@nighttrax/*": ["packages/*/src"]
+      "@apidemo/*": [
+        "apps/*/src", 
+        "libs/*/src"
+      ]
     },
     "jsx": "react",
     "esModuleInterop": true,
