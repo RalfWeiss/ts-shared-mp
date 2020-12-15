@@ -15,7 +15,8 @@
     "start": "SKIP_PREFLIGHT_CHECK=true  lerna run start",
     "start:cra": "yarn workspace @apidemo/cra run start",
     "build": "lerna run build",
-    "postbuild": "mv ./apps/cra/build ./docs",
+    "predeploy": "yarn workspace @apidemo/cra run build",
+    "deploy": "yarn workspace @apidemo/cra run deploy",
     "compile": "lerna run compile",
     "test": "lerna run test"
   },
