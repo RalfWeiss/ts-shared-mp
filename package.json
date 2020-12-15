@@ -18,7 +18,8 @@
     "compile": "lerna run compile",
     "test": "lerna run test",
     "predeploy": "rimraf ./docs && yarn run build",
-    "deploy": "cp -r ./apps/cra/build ./docs"
+    "deploy:docs": "cp -r ./apps/cra/build ./docs",
+    "deploy": "gh-pages -d ./apps/cra/build"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
