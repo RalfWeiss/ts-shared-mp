@@ -16,7 +16,7 @@
     "start:cra": "yarn workspace @apidemo/cra run start",
     "build": "lerna run build",
     "predeploy": "yarn workspace @apidemo/cra run build",
-    "deploy": "yarn workspace @apidemo/cra run deploy",
+    "deploy": "gh-pages -d ./gh-pages",
     "compile": "lerna run compile",
     "test": "lerna run test"
   },
