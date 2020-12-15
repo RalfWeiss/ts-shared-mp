@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "git@github.com:RalfWeiss/ts-shared-mp.git",
   "author": "<ralf.weiss@email.de>",
-  "homepage": "https://ralfweiss.github.io/ts-shared-mp/docs",
+  "homepage": "https://ralfweiss.github.io/ts-shared-mp",
   "license": "MIT",
   "private": true,
   "workspaces": [
