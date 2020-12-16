@@ -1,6 +1,6 @@
 {
   "name": "@apidemo/smoketest",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "dist/index",
   "types": "dist/index",
@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^11.2.2",
-    "jest": "^26.6.3",
+    "jest": "^26.6.0",
     "ts-jest": "^26.4.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"    
