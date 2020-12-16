@@ -8,9 +8,16 @@ export type AdminProps = {
 }
 
 // change ListGuesser with UserLsit
+/*
 export const Admin = ({dataProvider}: AdminProps) => 
   <RaAdmin dataProvider={dataProvider} >
     <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} />
     <Resource name="users" list={UserList} />
   </RaAdmin>
+*/
 
+export const Admin = ({dataProvider}: AdminProps) => 
+  <RaAdmin dataProvider={dataProvider} >
+    <Resource name="posts" list={ListGuesser} />
+    <Resource name="comments" list={ListGuesser} />
+  </RaAdmin>

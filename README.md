@@ -22,6 +22,9 @@ In the initial steps this repo shows the usage of the following toolset:
 
 - install [mockend](https://github.com/apps/mockend) in Github repo
 - add file `.mockend.json` in repo root
+- add proxy: http-proxy-middleware
+
+
 
 ## Add a lib
 
