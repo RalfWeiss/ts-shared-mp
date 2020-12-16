@@ -18,3 +18,11 @@ In the initial steps this repo shows the usage of the following toolset:
 - react-admin
 - Mockend + json
 
+## Add `mockend`
+
+- install [mockend](https://github.com/apps/mockend) in Github repo
+- add file `.mockend.json` in repo root
+
+## Add a lib
+
+Adding a lib ex. `admin` which encapsulate a `react-admin` component.

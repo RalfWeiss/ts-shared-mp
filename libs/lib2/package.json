@@ -1,5 +1,5 @@
 {
-  "name": "@apidemo/smoketest",
+  "name": "@apidemo/lib2",
   "version": "0.0.2",
   "license": "MIT",
   "main": "dist/index",  

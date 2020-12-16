@@ -44,3 +44,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+// "@apidemo/smoketest": ["../../../libs/smoketest/src"]
+//"@apidemo/admin": ["../../../libs/admin/src"]
+//"@apidemo/smoketest": ["../../node_modules/smoketest"]
+
+
+Craco wird nicht benötigt.
+
+yarn workspace @apidemo/admin add @types/react-admin
+
+
+Das Problem war, dass ich die Types in Admin nicht exportiert hatte !!!!

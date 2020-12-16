@@ -1,0 +1,26 @@
+{
+  "name": "@apidemo/admin",
+  "version": "0.0.2",
+  "license": "MIT",
+  "main": "dist/index",
+  "types": "dist/index",
+  
+  "scripts": {
+    "clean": "rimraf -rf ./dist",
+    "build": "yarn run clean && yarn run compile",
+    "build:lib": "yarn run build",
+    "compile": "tsc -p tsconfig.build.json",    
+    "test": "jest",
+    "test:lib": "yarn run test"
+  },
+  "dependencies": {
+    "react-admin": "^3.11.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.2.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }  
+}
